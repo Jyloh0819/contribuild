@@ -1,0 +1,11 @@
+body, .row, .row div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color:#F8F5F5;
+    overflow-y:hidden;
+}
+

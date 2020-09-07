@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contribuild. - Donate</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!--Javascript-->
+    <script src="js/donate-script.js"></script>
+
+    <!--CSS-->
+    <link rel='stylesheet' type='text/css'media='screen' href='css/donate-style.css'>
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 title">
+                <p id="title-1">Donate here</p>
+                <p id="subtitle">You are able to contribute to more than one area</p>
+                <div class="back-btn">
+                    <img id="back-btn" src="images/back-btn.svg" alt="back">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-1">
+                <div class="area-container-1">
+                    <img id="area-1" src="images/area-1-donate.svg" alt="area-1">
+                    <p id="area-1-text">Research and understand the virus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-2">
+                <div class="area-container-2">
+                    <img id="area-2" src="images/area-2-donate.svg" alt="area-1">
+                    <p id="area-2-text">Healthcare for patients</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-3">
+                <div class="area-container-3">
+                    <img id="area-3" src="images/area-3-donate.svg" alt="area-1">
+                    <p id="area-3-text">Provide essential supplies</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-4">
+                <div class="area-container-4">
+                    <img id="area-4" src="images/area-4-donate.svg" alt="area-1">
+                    <p id="area-4-text">Development of vaccine</p>
+                </div>
+            </div>
+        </div>
+
+        <!--mobile-->
+
+        <div class="row">
+            <div class="col-12 area-1-mobile">
+                <div class="area-container-1-mobile">
+                    <img id="area-1-mobile" src="images/area-1-donate.svg" alt="area-1">
+                    <p id="area-1-text-mobile">Research and understand the virus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-2-mobile">
+                <div class="area-container-2-mobile">
+                    <img id="area-2-mobile" src="images/area-2-donate.svg" alt="area-1">
+                    <p id="area-2-text-mobile">Healthcare for patients</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-3-mobile">
+                <div class="area-container-3-mobile">
+                    <img id="area-3-mobile" src="images/area-3-donate.svg" alt="area-1">
+                    <p id="area-3-text-mobile">Provide essential supplies</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 area-4-mobile">
+                <div class="area-container-4-mobile">
+                    <img id="area-4-mobile" src="images/area-4-donate.svg" alt="area-1">
+                    <p id="area-4-text-mobile">Development of vaccine</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 amount-btn">
+                <button id="amount-1" type="button">$25</button>
+                <button id="amount-2" type="button">$50</button>
+                <button id="amount-3" type="button">$100</button>
+                <input type="number" id="other" placeholder="Other amount" oninput="myFunction()">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 total">
+                <p id="total-amount">Total:
+                    <span id="output-amount"></span>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 button">
+                <button type="button" id="proceed-btn">Continue</button>
+            </div>
+        </div>
+
+
+
+        <!--dafault-->
+        <div class="row">
+            <div class="col-12 top-bar">
+                <button type="button" class="donate-btn"> 
+                    <p id="donate-text">Let's Donate</p>
+                </button>
+    
+            <div class="col-12 footer">
+                <p id="total">Total funds collected </p>
+                    <p id="funds">$225,038</p>
+                </div>
+    
+                <div id="web-logo">
+                    <p>CONTRIBUILD.</p>
+                </div>
+    
+                <div id="menuToggle">
+                    <input id="menu-test" type="checkbox">
+                    <span id="first"></span>
+                    <span id="second"></span>
+                    <span id="third"></span>
+                    <div id="menu">
+                        <div id="blue-bg"></div>
+                        <div id="orange-bg">
+                        <p id="menu-label">Menu</p>
+                        <p class="menu-text" id="menu-home">HOME</p>
+                        <p class="menu-text" id="menu-who">WHO ARE WE</p>
+                        <p class="menu-text" id="menu-how">HOW ARE YOU HELPING?</p>
+                        <p class="menu-text" id="menu-contact">CONTACT US</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("other").value;
+        document.getElementById("output-amount").innerHTML = '$' + x;
+}
+    </script>
+
+
+
+</body>
+
+</html>
